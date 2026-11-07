@@ -1,0 +1,33 @@
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# 영상·음성·이미지 결과물 (용량이 크고 개인정보가 들어 있을 수 있음)
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.wav
+*.mp3
+*.m4a
+jobs/
+illust/
+*_sheet.jpg
+
+# 모델 파일 (각자 받음)
+*.onnx
+*.pth
+*.safetensors
+
+# Claude Code 개인 설정
+.claude/settings.local.json
+
+# OS·OneDrive
+desktop.ini
+Thumbs.db
+.DS_Store
